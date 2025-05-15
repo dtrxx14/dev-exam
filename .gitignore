@@ -1,0 +1,16 @@
+# Laravel
+/vendor
+/node_modules
+.env
+/public/storage
+/storage/*.key
+/database/*.sqlite
+.phpunit.result.cache
+
+# IDEs
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
