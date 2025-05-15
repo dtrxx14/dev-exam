@@ -47,6 +47,7 @@ DB_PASSWORD=
 ### 4. Generate App Key and JWT Secret
 
 php artisan key:generate
+
 php artisan jwt:secret
 
 ### 5. Run Database Migrations
