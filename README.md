@@ -27,14 +27,21 @@ composer install
 cp .env.example .env
 
 Open .env and configure your database and app details:
-APP_NAME=LaravelApp
+
+APP_NAME="Technical Exam - Zach Yamio"
+
 APP_URL=http://127.0.0.1:8000
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=dev_exam
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 ### 4. Generate App Key and JWT Secret
